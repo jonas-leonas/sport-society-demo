@@ -1,0 +1,387 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+/* -------------------- HEADER-------------------*/
+header{
+    background-color: #FF6A5B;
+    height: 46px;
+    }
+#header-wrap{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+header h4{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #1E1549;;
+    letter-spacing: -0.2rem;   
+    padding-left: 10px;
+
+
+}
+
+header ul{
+    padding: 0;
+    margin: auto 0;
+
+}
+header ul li{
+    display: inline;
+    text-transform: uppercase;
+
+}
+header ul a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1E1549;
+    margin-right: 20px;
+    letter-spacing: -0.1rem;
+
+}
+header ul a:hover{
+  
+    color: white;
+}
+/* -------------------- HERO SECTION-------------------*/
+main{
+    background-image: url(images/Capture.JPG);
+    background-position: right 10px top;
+    min-height: 870px;
+    display: flex;
+   
+}
+
+.heading-wraper{
+   width: 1180px;
+   margin: 0 auto;
+   padding-left: 15px;
+
+}
+
+.heading-wraper h3{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 140px;
+    letter-spacing: -0.2rem;
+
+}
+.heading-wraper h1{
+    font-size: 5.6rem;
+    font-weight: 600;
+    color: white;
+    line-height: 5.2rem;
+    margin-top: -20px;
+    letter-spacing: -0.4rem;
+    
+}
+.heading-wraper h1 span{
+  
+    color: #FF6A5B;
+    
+}
+.heading-wraper h2{
+    color: white;
+    max-width: 440px;
+
+}
+
+.heading-wraper a{
+    background-color: #FF6A5B;
+    color: white;
+    width: 400px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0 10px;
+
+
+}
+/* -------------------- HAMBURGER MENU -------------------*/
+
+.m-menu{
+    display: none;
+ }
+/* -------------------- Unlock Section -------------------*/
+
+.unlock{
+    background-color: #FF6A5B;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.unlock-wrap{
+    max-width: 1180px;
+    margin: 0 auto;
+    color: #1E1549;
+    padding: 0 15px;
+  
+}
+.unlock-wrap h5{
+    margin: 0;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+    color: #1E1549;
+}
+
+.unlock-wrap h6{
+    margin: 0;
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    margin-top: -10px;
+    letter-spacing: -0.2rem;
+}
+.unlock-wrap p{
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.inner-unlock{
+    color: #1E1549;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrap{
+    width: 33%;
+    padding: 10px;
+}
+
+.wrap  .numbers{
+    font-size: 8.6rem;
+    font-weight: 600;
+    letter-spacing: -0.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+.wrap  .effect{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+
+}
+.wrap  .subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+
+}
+.unlock a{
+
+    background-color: #1E1549;
+    color: #FF6A5B;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 40px auto;
+    letter-spacing: -0.05rem;
+    text-align: center;
+}
+  /* -------------------- Footer Section -------------------*/
+
+footer{
+    background-color: #1E1549;
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-top{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    width: 400px;
+    margin: 0;
+}
+.footer-top h5{
+    color: #fff;
+    font-size: 4.6rem;
+    font-weight: 600;
+    text-align: center;
+    width: 400px;
+    margin: -10px 0;
+}
+.footer-top h5:nth-of-type(2){
+    color: #FF6A5B;
+
+}
+.footer-bottom{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+.footer-bottom h5{
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.footer-bottom p{
+  max-width: 600px;
+  padding: 15px;
+}
+  /* --------------------  MEDIA Queries -------------------*/
+  /* -------------------- HAMBURGER MENU -------------------*/
+
+  @media screen and (max-width: 960px){
+
+
+  
+  
+    #header-wrap{
+        width: 100%;
+    
+    }
+    header h4{
+
+        position: absolute;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .m-menu{
+         height: 100%;
+         display: contents;
+         
+
+      }
+      header ul{
+        display:none;
+
+      }
+     #navbar{
+        z-index: 5;
+        width: 100%;
+      }
+
+      .hamburger {
+        height: 45px;
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: end;
+        z-index: 120;
+        margin: 0 15px 0 0;
+      }
+      
+      .hamburger div {
+        background-color: #1E1549;
+        position: relative;
+        width: 40px;
+        height: 5px;
+        margin-top: 7px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+
+      
+      #toggle {
+        display: none;
+      }
+      
+      #toggle:checked + .hamburger .top {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        margin-top: 22.5px;
+      }
+      
+      #toggle:checked + .hamburger .meat {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        margin-top: -5px;
+      }
+      
+      #toggle:checked + .hamburger .bottom {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+      }
+      
+      #toggle:checked ~ .menu {
+        height: 380px;
+       
+    }
+      
+      
+      /* Menu */
+      .menu {
+        background-color: #FF6A5B;
+        margin: 0;
+        display: -ms-grid;
+        display: grid;
+        padding: 0;
+        list-style: none;
+        clear: both;
+        width: auto;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        transition: height .4s ease;
+        z-index: 120;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 2.4rem;
+        letter-spacing: -0.1rem;
+      }
+      
+      .menu a:first-child {
+      }
+      
+      .menu a:last-child {
+      }
+      
+      .link {
+        width: 100%;
+        margin: 0;
+      }
+      
+      .link:hover {
+        background-color: #1E1549;
+        color: white;
+      
+      }
+
+      .heading-wraper h3,h1, h2 {
+        width: fit-content;
+    background-color: #1E154980;  
+  
+    
+    }
+    .inner-unlock{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .wrap{
+        width: 100%;
+        padding: 10px;
+    
+    }
+  }
